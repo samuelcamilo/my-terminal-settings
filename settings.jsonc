@@ -1,0 +1,26 @@
+{
+  // editor...
+  "editor.fontFamily": "JetBrains Mono", // Definição de fontFamily.
+  "editor.fontSize": 13, // Definição do tamanho da fonte.
+  "editor.tabSize": 2, // Definição do tamanho da tabSize.
+  "editor.wordWrap": "on", // Ativação de WordWrap (quebra de linha).
+  "editor.minimap.renderCharacters": false, // Ajuste de caracteres no minimap.
+  "editor.formatOnSave": true, // Definindo auto-save ao salvar o arquivo.
+  "html.format.wrapAttributes": "auto", // Evita quebra de atributos.
+  "html.format.wrapLineLength": 0, // Evita quebra de linhas.
+  "html.autoClosingTags": false, // Evita fechamento automático de tags
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Formatador padrão
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features" // Para documentos html, define outro editor padrão.
+  },
+
+  // workbench...
+  "workbench.sideBar.location": "right", // Definição de sideBar.
+  "workbench.iconTheme": "material-icon-theme", // Definição de icon para vscode.
+  "workbench.startupEditor": "none", // Remover mensagem de bem-vindo.
+  "explorer.confirmDelete": false, // Define necessidade de confirmação de exclusão.
+
+  // breadcrumbs...
+  "breadcrumbs.filePath": "off", // Removendo breadcrumbs.
+  "outline.icons": false // removendo icones do breadcrumbs.
+}
