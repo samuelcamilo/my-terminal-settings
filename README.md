@@ -1,4 +1,4 @@
-# my-vscode-settings
+# my-terminal-settings
 
 Para o carregamento automático do módulo foi introduzido no PowerShell, o modulo de script precisa ser salvo em uma pasta com o mesmo nome de base que o arquivo de `.PSM1` e nos um locais especificados em `$env:PSModulePath -split ';'`.
 
